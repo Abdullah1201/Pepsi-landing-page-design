@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="#">
+                <img src="img/logo.png" class="logo" alt="">
+            </a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>That's What<br><span>I Like</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum iste quisquam nemo aperiam Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Non inventore unde excepturi.</p>
+                <a href="#">View All Products</a>
+            </div>
+            <div class="imgBox">
+                <img src="img/pepsi001.png" class="pepsi" alt="">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li>
+                <img src="img/pepsi001.png" onclick="imgSlider('img/pepsi001.png');ChangeBgColor('#0062be')">
+            </li>
+            <li>
+                <img src="img/pepsi002.png" onclick="imgSlider('img/pepsi002.png');ChangeBgColor('#e60c2c')">
+            </li>
+            <li>
+                <img src="img/pepsi003.png" onclick="imgSlider('img/pepsi003.png');ChangeBgColor('#1e1e1e')">
+            </li>
+        </ul>
+        <ul class="social">
+            <li>
+                <a href="#"><img src="img/facebook.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="img/twitter.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="img/instagram.png" alt=""></a>
+            </li>
+        </ul>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
